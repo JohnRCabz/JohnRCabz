@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://themonstrousdev.github.io/styles/fancy-fonts.css">
+    <link rel="stylesheet" href="https://themonstrousdev.github.io/styles/google-fonts.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://themonstrousdev.github.io/styles/fancy-fonts.css">
+    <link rel="stylesheet" href="https://themonstrousdev.github.io/styles/google-fonts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- styles | please do not touch anything above this line -->
+
+    <!-- 
+    =========================
+    ----- PROFILE START -----
+    =========================
+    -->
+    <div class="titleText">
+      TranZSienT
+    </div>
+    <div id="tabs">
+      <div class="btn selected" opens="profile">Profile</div>
+      <div class="btn" opens="skills">Skills</div>
+      <div class="btn" opens="portfolio">portfolio</div>
+    </div>
+    <!--
+    ====================
+    ----- MAIN BOX -----
+    ====================
+    -->
+    <div id="mainBox">
+      <div class="scroller open" id="profile">
+        <h3>About Me</h3>
+        <p style="text-align:justify;">
+          I am a goal oriented person who puts all the passion in the
+          work that I do. Committed in the quality of work and the
+          accuracy of the features being developed. I excel in effective
+          human relations and understand their behavior. I am a quick
+          learner with a desire and hunger to grow as new technologies
+          emerge.
+        </p>
+        <p style="text-align:justify;">
+          As a web developer I have splatted plenty of bugs with the help
+          of my experience and our helpful community in StackOverflow.
+          I have talked to countless of random developers online that have
+          the same problem as me and helped me brainstorm for solutions which
+          is a great experience for my growth.
+        </p>
+        <h3>Profile</h3>
+        <table class="doss">
+          <tr><th>Name</th>  <th>Degree</th>  <th>Age</th><th>Gender</th></tr>
+          <tr><td>John R Cabz</td>  <td>BS ComputerScience</td>  <td>23 y.o.</td> <td>Male</td> </tr>
+          <tr><th>Position</th>  <th>Email</th>  <th>Marital Status</th> <th>Residence</th></tr>
+          <tr><td>Web Developer</td>  <td>johncabz4199@gmail.com</td>  <td>Single</td> <td>---</td></tr>
+        </table>
+      </div>
+      <div class="scroller" id="skills">
+        <h3>Skills</h3>
+        <div class="flexList">
+            <div class="desc">
+              <div class="skills" img="./assets/html.png"></div>
+              <p>
+                Both HTML and CSS has been the main foundation of my interest and the skills that I have to offer in the industry.
+              </p>
+            </div>
+            <div class="desc">
+              <div class="skills" img="./assets/git.png"></div>
+              <p>
+                GIT is a very powerful tool that has saved my life countless of times from various accidents that all developers can relate.
+              </p>
+            </div>
+            <div class="desc">
+              <div class="skills" img="./assets/js.jpg"></div>
+              <p>
+               JavaScript and all JS components was very challenging for me at the start but along the way, it became fun and powerfool tool that helps me achieve functions that HTML and CSS cannot.
+              </p>
+            </div>
+        </div>
+      </div>
+      <div class="scroller" id="portfolio">
+        <h3>Portfolio</h3>
+        <div class="flexBox">
+          <div class="picture" img="./assets/port1.jpg"></div>
+          <div class="picture" img="./assets/404.png"></div>
+          <div class="picture" img="./assets/port1.jpg"></div>
+          <div class="picture" img="./assets/404.png"></div>
+          <div class="picture" img="./assets/port1.jpg"></div>
+          <div class="picture" img="./assets/404.png"></div>
+          <div class="picture" img="./assets/port1.jpg"></div>
+          <div class="picture" img="./assets/404.png"></div>
+          <div class="picture" img="./assets/port1.jpg"></div>
+          <div class="picture" img="./assets/404.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modals"></div>
+    <div id="spike"></div>
+    <canvas id="pixie"></canvas>
+    <!-- shit here -->
+
+    <!-- 
+    =======================
+    ----- PROFILE END -----
+    =======================
+    -->
+
+<!-- scripts | please do not touch -->
+<script src="https://themonstrousdev.github.io/scripts/libs/jquery.min.js"></script>
+<script src="https://themonstrousdev.github.io/profiles/Addons/king-commission.js"></script>
+<script src="./script.js"></script>
+  </body>
+</html> 
