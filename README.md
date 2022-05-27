@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+I am JohnRCabz, this is my landing page. Feel free to contact me via gmail for business matters.
 <!--
 **JohnRCabz/JohnRCabz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
